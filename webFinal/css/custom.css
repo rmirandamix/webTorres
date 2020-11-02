@@ -1,0 +1,96 @@
+/*Customizable*/
+
+
+
+
+/**Begin Tipografía**/
+
+
+.fontStaat{
+
+	font-family: 'Staatliches', cursive;
+	
+}
+
+
+.fontStaatSize{
+	
+	font-size: 70px !important;
+
+}
+
+/**End Tipografía**/
+
+/*Begin Logo*/
+
+.logo a img{
+	width: 40% !important;
+}
+
+/*End Logo*/
+
+
+/*Begin Colores*/
+
+.black{
+	color: rgb(0,0,0) !important; 
+}
+
+.white{
+	color: rgb(255,255,255) !important;
+}
+
+.red{
+	color: rgb(255,0,0) !important;
+}
+
+
+/*End Colores*/
+
+
+/*****************/
+/*Begin Servicios*/
+
+.workText_color{
+	color: rgb(255,0,0) !important;
+	font-size: 50px !important;
+
+}
+
+/*End Servicios*/
+/*****************/
+
+
+/**************/
+/*Begin FOOTER*/
+
+
+/*Begin Copyright*/
+
+.copyrights {
+    background-color: rgb(1,1,1);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.footer-company-name{
+    text-align: center; 
+}
+
+.footer-company-name img{
+	margin: 5px;
+}
+
+/*End Copyright*/
+
+
+
+
+
+/*End FOOTER*/
+/**************/
+
