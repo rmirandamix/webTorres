@@ -16,7 +16,6 @@
 .fontStaatSize{
 	
 	font-size: 70px !important;
-
 }
 
 /**End Tipografía**/
@@ -46,6 +45,24 @@
 
 
 /*End Colores*/
+
+/*Begin Fondo*/
+
+.fondo{
+
+    background-color: rgb(8,90,174,0.5);	
+	text-align: center;
+}
+
+.fondo span{
+
+	font-weight: bold;
+}
+
+/*End Fondo*/
+
+
+
 
 
 /*****************/
@@ -85,11 +102,7 @@
 	margin: 5px;
 }
 
-/*End Copyright*/
-
-
-
-
+/*End Copyright*/  
 
 /*End FOOTER*/
 /**************/
