@@ -1,0 +1,119 @@
+/***********************/
+/******Customizable****/
+/*********************/
+
+
+/***Índice***/
+
+/*
+.  1  --------------------------- HTML
+.  1  --------------------------- Body
+.  1  --------------------------- Header
+.  1  --------------------------- Footer
+.  1  --------------------------- VArios
+
+*/
+
+/*HEADER*/
+
+
+#branding img{
+	height: 40px;
+}
+
+.sliderHero{
+	
+}
+
+.fondoOpaco{
+
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;  
+
+}
+
+.fondoOpaco:before{
+
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.fondoOpaco h2, p {
+
+	color: #fff;
+	position: relative
+}  
+
+
+/*Fin HEADER*/
+
+
+.color{
+	color: #0a77e8;
+}
+
+.wasap{
+
+	text-align: center; 
+
+}
+
+.logoFooter img{
+
+	height: 150px;
+}
+.whatsapp {
+
+	  position: relative;
+	  width:60px;
+	  height:60px;
+	  bottom:40px;
+	  right:40px;
+	  background-color:#25d366;
+	  color:#FFF;
+	  border-radius:50px;
+	  text-align:center;
+	  font-size:30px;
+	  z-index:100;
+
+}
+
+/*Begin Copyright*/
+
+.copyrights {
+    background-color: rgb(1,1,1);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.footer-company-name{
+    text-align: center; 
+}
+
+.footer-company-name img{
+	margin: 5px;
+}
+
+/*End Copyright*/  
+
+
+/*MEdias Querys*/
+
+
+@media screen and (max-width: 480px){
+
+	#branding img{
+		position: relative;
+		left: 30px;
+	}
+}
